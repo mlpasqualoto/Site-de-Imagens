@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="photo web-site">
+    <meta autor="author" content="Matheus Leite Pasqualoto">
+    <meta name="keywords" content="html, css, javascript">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <script src="script.js"></script>
+    <title>Home Page</title>
+
+</head>
+<body>
+    <div class="main-home-page">
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home Page</a></li>
+                    <li><a href="">Explore</a></li>
+                    <li><a href="">Create</a></li>
+                </ul>
+            </nav>
+            <div class="input-wrapper">
+                <input type="text" class="header-search" id="header-search" name="search" placeholder="Search" spellcheck="false" autocomplete="off">
+                <button class="button-search" onclick="searchImage()"><i class="fa fa-search"></i></button>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href=""><i class="fa-solid fa-bell" id="bell-notifications"></i></a></li>
+                    <li><a href=""><i class="fa-solid fa-message"></i></a></li>
+                    <li><a href=""><i class="fa-solid fa-camera"></i></a></li>
+                    <li><a href=""><i class="fa-solid fa-user"></i></a></li>
+                </ul>
+            </nav>
+        </header>
+        <section class="home-page">
+            <div id="home-page"></div>
+        </section>
+    </div>
+</body>
+</html>
