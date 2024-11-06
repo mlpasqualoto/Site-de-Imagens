@@ -16,3 +16,18 @@ Este é um projeto de um site de fotos simples que utiliza a API do Unsplash par
 - **CSS3**: para o estilo da página, incluindo um layout responsivo.
 - **JavaScript**: para interatividade e consumo da API do Unsplash.
 - **API do Unsplash**: usada para buscar imagens e exibi-las no site.
+
+## Estrutura do Código
+
+- **HTML**: Contém o campo de entrada, botão de pesquisa e tabela de resultados.
+- **CSS**: Estilos para uma interface responsiva em desktop e mobile.
+- **JavaScript**:
+  - **`getCep(cep)`**: Realiza a requisição à API ViaCEP.
+  - **`searchCep()`**: Valida o CEP e chama a função `getCep()`.
+  - **`showElement(id)`**: Controla a exibição da tabela de resultados.
+
+### Exemplo de Uso
+
+1. Insira o CEP no campo de texto.
+2. Clique em "Search".
+3. O endereço correspondente ao CEP será exibido na tabela.
